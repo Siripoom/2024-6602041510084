@@ -1,0 +1,7 @@
+POST http://localhost:1336/api/auth/local
+Content-Type: application/json
+
+{
+    "identifier": "Siripoom",
+    "password": "123456"
+    }

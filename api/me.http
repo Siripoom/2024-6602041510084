@@ -1,0 +1,34 @@
+GET http://localhost:1336/api/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNzM2MjM5ODMyLCJleHAiOjE3Mzg4MzE4MzJ9.MKiPfnuPp2gUhkreoOhVxANF8ivzEL_6SEFIols_nFk
+Content-Type: application/json
+
+###
+
+POST /profiles
+Host: your-strapi-instance.com
+Authorization: Bearer <your-access-token>
+Content-Type: application/json
+
+{
+  "username": "newuser",
+  "email": "newuser@example.com",
+  "bio": "This is a new user profile."
+}
+
+###
+
+PUT /profiles/:id
+Host: your-strapi-instance.com
+Authorization: Bearer <your-access-token>
+Content-Type: application/json
+
+{
+  "bio": "Updated bio for the user."
+}
+
+###
+
+DELETE /profiles/:id
+Host: your-strapi-instance.com
+Authorization: Bearer <your-access-token>
+Content-Type: application/json
