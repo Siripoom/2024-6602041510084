@@ -1,8 +1,9 @@
-GET http://localhost:1336/api/subjects
+POST http://localhost:1336/api/subjects
 Authorization: Bearer 22bf783930b69d0f5d97c52dd68e023efd6d73f9dd798d7beaa5f4cea2a2cfe322898eb00342cb2d994e915352784b045ccf95eb272480105c974b5fc5992593883d46bd60f671d432f321f2b4b54b00709001797c0c08f0c23c7ce1e1ba89a3938130029f0a509de102e4ef1201a9056aae0bda9459ef660d730e53794a9704
 Content-Type: application/json
 
 {
-  "name": "Cyber Security ",
- 
+  "data": {
+    "name": "Cyber Security"
+  }
 }
